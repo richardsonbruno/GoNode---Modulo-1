@@ -1,0 +1,9 @@
+<h1>Listando nomes de usuários</h1>
+
+<ul>
+  {% for user in users %}
+    <li>{{ user }}</li>
+  {% endfor %}
+</ul>
+
+<a href="/new" title="Cadastrar Usuário">Novo Usuário</a>
